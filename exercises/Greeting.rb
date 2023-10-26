@@ -1,3 +1,6 @@
-puts "Good morning"
-puts "Good afternoon"
-puts "Good evening"
+def greeting(name)
+  return "Hello, #{name}!"
+  "Good morning, #{name}!"
+end
+
+puts greeting('John')
